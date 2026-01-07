@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="./vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>【テスト用】株式会社 サンプル商事 調達情報</title>
+  <script type="module" crossorigin src="./assets/index-QSlGwlFA.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-DwGpRMVs.css">
+</head>
+
+<body>
+  <div id="app">
+    <!-- Header -->
+    <header class="site-header glass-card">
+      <div class="container header-inner">
+        <div class="logo">
+          <!-- Icon placeholder -->
+          <span class="logo-icon">🇯🇵</span>
+          <div class="logo-text">
+            <h1>株式会社 サンプル商事</h1>
+            <small>Sample Corp. Procurement</small>
+          </div>
+        </div>
+        <nav class="main-nav">
+          <ul>
+            <li><a href="#tender">一般競争入札</a></li>
+            <li><a href="#open-counter">オープンカウンター</a></li>
+            <li><a href="#info">情報・お問い合わせ</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container hero-content">
+        <h2 class="hero-title floating">信頼と透明性の調達情報</h2>
+        <p class="hero-subtitle">当社の調達に関する最新情報を提供します。</p>
+        <div class="hero-actions">
+          <a href="#tender" class="btn btn-primary">最新の入札情報を見る</a>
+          <a href="#guidelines" class="btn btn-outline">参加資格・手引き</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="container main-content">
+
+      <!-- Category A: Tender Notices -->
+      <section id="tender" class="section-category">
+        <div class="section-header">
+          <h3>一般競争入札情報（物品・役務・工事）</h3>
+          <p>現在の入札公告情報です。</p>
+        </div>
+        <div class="filter-bar">
+          <button class="filter-btn active" data-filter="all">すべて</button>
+          <button class="filter-btn" data-filter="goods">物品・役務</button>
+          <button class="filter-btn" data-filter="construction">工事</button>
+        </div>
+        <div class="card-grid" id="tender-grid">
+          <!-- Cards will be injected by JS -->
+        </div>
+      </section>
+
+      <!-- Category B: Open Counter -->
+      <section id="open-counter" class="section-category">
+        <div class="section-header">
+          <h3>オープンカウンター方式</h3>
+          <p>見積り合わせによる調達情報です。</p>
+        </div>
+        <div class="filter-bar">
+          <button class="filter-btn active" data-filter="all">すべて</button>
+          <button class="filter-btn" data-filter="quote">見積り合わせ</button>
+          <button class="filter-btn" data-filter="public">公募</button>
+        </div>
+        <div class="card-grid" id="open-counter-grid">
+          <!-- Cards will be injected by JS -->
+        </div>
+      </section>
+
+      <!-- Category C: Information -->
+      <section id="info" class="section-category glass-card info-section">
+        <h3>情報・お問い合わせ</h3>
+        <div class="info-grid">
+          <div class="info-group">
+            <h4>ガイドライン・規則</h4>
+            <ul class="link-list">
+              <li><a href="#">入札及び入札心得</a></li>
+              <li><a href="#">標準契約書</a></li>
+              <li><a href="#">糧食品規格表</a></li>
+              <li><a href="#">全省庁統一資格審査</a></li>
+            </ul>
+          </div>
+          <div class="info-group">
+            <h4>予定・実績</h4>
+            <ul class="link-list">
+              <li><a href="#">公共調達予定</a></li>
+              <li><a href="#">工事等予定表</a></li>
+              <li><a href="#">前年度入札結果</a></li>
+            </ul>
+          </div>
+          <div class="contact-info">
+            <h4>お問い合わせ</h4>
+            <p><strong>株式会社 サンプル商事 調達部</strong></p>
+            <p>〒100-0001<br>東京都千代田区千代田1-1<br>（本社ビル）</p>
+            <p>📞 03-1234-5678 (代表)</p>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="site-footer">
+      <div class="container text-center">
+        <p>&copy; Sample Corp. All Rights Reserved.</p>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
